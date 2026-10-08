@@ -1,0 +1,10 @@
+Pon aquí tus imágenes con estos nombres exactos:
+
+foto-01.jpg
+foto-02.jpg
+foto-03.jpg
+foto-04.jpg
+foto-05.jpg
+foto-06.jpg
+
+Al abrir index.html, cada imagen aparecerá automáticamente en su marco.

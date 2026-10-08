@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#120918">
+  <title>Feliz cumpleaños, mi amor ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=DM+Sans:wght@400;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <section class="screen welcome active" id="welcome" data-view="welcome">
+    <div class="sparkles" aria-hidden="true"></div>
+    <div class="wing-heart" aria-hidden="true">⌁ <b>♥</b> ⌁</div>
+    <p class="kicker">UNA SORPRESA PARA MI PERSONA FAVORITA</p>
+    <h1>te amo mi amor<br><span>cachetona</span></h1>
+    <p>este sitio web es para ti</p>
+    <button class="primary" data-open="selector">abrir tus regalos <i>♡</i></button>
+    <small>hecho con amor, drama y un poquito de magia</small>
+  </section>
+
+  <section class="screen selector" id="selector" data-view="selector" hidden>
+    <header class="screen-head">
+      <button class="icon-btn" data-open="welcome" aria-label="Volver a la portada">←</button>
+      <div class="mini-brand">MH <b>1600</b></div>
+      <span class="step">elige</span>
+    </header>
+    <div class="selector-title">
+      <p class="kicker">REGALOS PARA TI</p>
+      <h2>escoge una<br><span>muñeca</span></h2>
+      <p>toca una para abrir su sorpresa</p>
+    </div>
+    <div class="doll-track" id="dollTrack">
+      <button class="doll-choice cupid" data-open="song"><span class="doll-window single"><img src="assets/cupid-1600.png" alt="C.A. Cupid de cuerpo completo"></span><span class="doll-label"><b>C.A. Cupid</b><small>nuestra canción</small></span></button>
+      <button class="doll-choice draculaura" data-open="photos"><span class="doll-window single"><img src="assets/draculaura-1600.png" alt="Draculaura de cuerpo completo"></span><span class="doll-label"><b>Draculaura</b><small>nuestros recuerdos</small></span></button>
+      <button class="doll-choice frankie" data-open="coupons"><span class="doll-window single"><img src="assets/frankie-1600.png" alt="Frankie Stein de cuerpo completo"></span><span class="doll-label"><b>Frankie Stein</b><small>cupones para ti</small></span></button>
+      <button class="doll-choice clawdeen" data-open="letter"><span class="doll-window single"><img src="assets/clawdeen-1600.png" alt="Clawdeen Wolf de cuerpo completo"></span><span class="doll-label"><b>Clawdeen</b><small>mi carta de amor</small></span></button>
+    </div>
+    <div class="swipe-hint">toca una muñeca para abrir su regalo ♡</div>
+  </section>
+
+  <section class="screen module song-module" id="song" data-view="song" hidden>
+    <header class="screen-head light"><button class="icon-btn" data-open="selector" aria-label="Volver a las muñecas">←</button><div class="module-name">C.A. Cupid</div><span class="step">01/04</span></header>
+    <div class="module-scroll song-page">
+      <div class="module-title"><p class="kicker">UNA CANCIÓN PARA NOSOTROS</p><h2>te dedico esta<br><span>canción</span></h2></div>
+      <div class="song-layout">
+        <div class="video-card"><a class="video-preview" href="https://www.youtube.com/watch?v=nHVdEWooBoQ" target="_blank" rel="noreferrer" aria-label="Reproducir Buscarte Lejos en YouTube"><img src="https://img.youtube.com/vi/nHVdEWooBoQ/maxresdefault.jpg" alt="Portada del video Buscarte Lejos"><span>▶</span><small>toca para reproducir</small></a><div class="video-caption"><b>Buscarte Lejos</b><span>Duki &amp; Bizarrap · para nosotros ♡</span></div></div>
+        <article class="song-letter"><small>POR QUÉ TE LA DEDICO</small><h3>porque siempre<br>te elegiría a ti</h3><p>te dedico esta canción porque cada vez que la escucho termino pensando en nosotros y en todo lo bonito que hemos construido juntos.</p><p>me recuerda que no importa qué tan complicado se ponga el mundo ni qué tan lejos parezca todo, yo siempre voy a querer encontrarte, cuidarte y volver a ti.</p><p>gracias por ser mi lugar bonito, por hacerme sentir querido y por convertir los momentos normales en recuerdos que nunca quiero olvidar.</p><strong>esta canción siempre va a ser un poquito nuestra ♡</strong></article>
+      </div>
+      <img class="module-mascot song-cupid" src="assets/cupid-1600.png" alt="Cupido decorando la canción">
+      <span class="doodle doodle-one">♡</span><span class="doodle doodle-two">✦</span>
+    </div>
+  </section>
+
+  <section class="screen module photos-module" id="photos" data-view="photos" hidden>
+    <header class="screen-head"><button class="icon-btn" data-open="selector" aria-label="Volver a las muñecas">←</button><div class="module-name">Draculaura</div><span class="step">02/04</span></header>
+    <div class="photo-page">
+      <div class="module-title compact"><p class="kicker">NUESTRO PEQUEÑO MUSEO</p><h2>mis fotos favoritas<br><span>de nosotros</span></h2></div>
+      <div class="photo-collage">
+        <figure class="photo-item p1"><div><img src="fotos/foto-01.jpg" alt="Nuestro recuerdo 1"><span>+<small>foto 01</small></span></div><figcaption>ese día tan bonito ♡</figcaption></figure>
+        <figure class="photo-item p2"><div><img src="fotos/foto-02.jpg" alt="Nuestro recuerdo 2"><span>+<small>foto 02</small></span></div><figcaption>mi lugar favorito es contigo</figcaption></figure>
+        <figure class="photo-item p3"><div><img src="fotos/foto-03.jpg" alt="Nuestro recuerdo 3"><span>+<small>foto 03</small></span></div><figcaption>tú y yo siempre</figcaption></figure>
+        <figure class="photo-item p4"><div><img src="fotos/foto-04.jpg" alt="Nuestro recuerdo 4"><span>+<small>foto 04</small></span></div><figcaption>uno de mis recuerdos favoritos</figcaption></figure>
+        <figure class="photo-item p5"><div><img src="fotos/foto-05.jpg" alt="Nuestro recuerdo 5"><span>+<small>foto 05</small></span></div><figcaption>mi niña hermosa</figcaption></figure>
+        <figure class="photo-item p6"><div><img src="fotos/foto-06.jpg" alt="Nuestro recuerdo 6"><span>+<small>foto 06</small></span></div><figcaption>por muchos momentos más</figcaption></figure>
+      </div>
+      <img class="module-mascot photo-draculaura" src="assets/draculaura-1600.png" alt="Draculaura decorando nuestras fotos"><span class="collage-note">recuerdos que guardo en el corazón ♡</span>
+    </div>
+  </section>
+
+  <section class="screen module coupons-module" id="coupons" data-view="coupons" hidden>
+    <header class="screen-head light"><button class="icon-btn" data-open="selector" aria-label="Volver a las muñecas">←</button><div class="module-name">Frankie Stein</div><span class="step">03/04</span></header>
+    <div class="module-title compact"><p class="kicker">VÁLIDOS SOLO PARA MI NIÑA</p><h2>5 cupones<br><span>para canjear</span></h2></div>
+    <div class="coupon-showcase">
+      <img class="module-mascot coupon-frankie" src="assets/frankie-1600.png" alt="Frankie decorando los cupones">
+      <div class="coupon-panel"><div class="coupon-stage" id="couponStage">
+      <article class="coupon-card" data-coupon="0"><div class="coupon-top"><span>♡</span><small>CUPÓN 01 · SIN VENCIMIENTO</small></div><h3>escribe aquí tu regalo</h3><p>válido cuando tú quieras</p><button class="redeem">canjear cupón</button></article>
+      <article class="coupon-card" data-coupon="1" hidden><div class="coupon-top"><span>✦</span><small>CUPÓN 02 · SIN VENCIMIENTO</small></div><h3>escribe aquí tu regalo</h3><p>especialmente para ti</p><button class="redeem">canjear cupón</button></article>
+      <article class="coupon-card" data-coupon="2" hidden><div class="coupon-top"><span>☾</span><small>CUPÓN 03 · SIN VENCIMIENTO</small></div><h3>escribe aquí tu regalo</h3><p>exclusivo para mi amor</p><button class="redeem">canjear cupón</button></article>
+      <article class="coupon-card" data-coupon="3" hidden><div class="coupon-top"><span>⚡</span><small>CUPÓN 04 · SIN VENCIMIENTO</small></div><h3>escribe aquí tu regalo</h3><p>canjeable una vez</p><button class="redeem">canjear cupón</button></article>
+      <article class="coupon-card" data-coupon="4" hidden><div class="coupon-top"><span>♛</span><small>CUPÓN 05 · EL MÁS ESPECIAL</small></div><h3>escribe aquí tu regalo</h3><p>guardé lo mejor para el final</p><button class="redeem">canjear cupón</button></article>
+      <div class="all-redeemed" hidden><b>♥</b><h3>canjeaste todos</h3><p>ahora me toca cumplirlos mi amor</p><button id="restoreCoupons">volver a verlos</button></div>
+      </div>
+      <div class="coupon-nav"><button id="couponPrev">← anterior</button><span id="couponCount">1 / 5</span><button id="couponNext">siguiente →</button></div></div>
+    </div>
+  </section>
+
+  <section class="screen module letter-module" id="letter" data-view="letter" hidden>
+    <header class="screen-head"><button class="icon-btn" data-open="selector" aria-label="Volver a las muñecas">←</button><div class="module-name">Clawdeen Wolf</div><span class="step">04/04</span></header>
+    <div class="letter-wrap">
+      <div class="module-title compact"><p class="kicker">LA ÚLTIMA CARTA</p><h2>para mi amor<br><span>cachetona</span></h2></div>
+      <div class="letter-scene"><img class="module-mascot letter-clawdeen" src="assets/clawdeen-1600.png" alt="Clawdeen decorando la carta"><article class="letter-paper">
+        <div class="stamp">1600<br>♥</div>
+        <small>EN TU DÍA ESPECIAL</small>
+        <p>feliz cumpleaños mi amor</p>
+        <p>hice esto para recordarte lo mucho que te amo y lo feliz que me hace tenerte en mi vida. gracias por cada momento por aguantarme por hacerme reír y por ser tú conmigo.</p>
+        <p>espero que este nuevo año te traiga todo lo bonito que mereces. yo quiero estar ahí para celebrarte cuidarte y seguir haciendo recuerdos contigo.</p>
+        <p>te amo muchísimo mi cachetona bonita y hoy quiero que te sientas como lo que eres: la niña más especial del mundo.</p>
+        <strong>con todo mi amor ♡</strong>
+      </article></div>
+    </div>
+  </section>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
